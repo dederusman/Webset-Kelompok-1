@@ -86,12 +86,15 @@ body {
 .article p {
     margin: 10px 0;
 }
-
-.article .author, .article .tags {
+.article .author {
     font-size: 0.9em;
     color: #555;
 }
-
+.article .tags{
+    font-size: 0.9em;
+    color: #555;
+    font-style: italic;
+}
 .article .read-more {
     background-color:#B22222;
     color: white;
@@ -143,8 +146,6 @@ body {
 
     
 }
-
-
 .footer {
     color: black;
     text-align: center;

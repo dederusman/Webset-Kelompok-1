@@ -64,6 +64,12 @@ body {
     font-size: 12px;
     color: #666;
 }
+.content .tags {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+}
+
 .footer {
     background-color: #E6E6E6;
     padding: 20px;

@@ -59,6 +59,9 @@ body {
     color: #b22222;
     text-decoration: none;
 }
+.content .footer .tags {
+    font-style: italic;
+}
 .sidebar {
     display: flex;
     justify-content: space-between;
