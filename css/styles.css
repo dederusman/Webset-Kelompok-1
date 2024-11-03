@@ -1,0 +1,156 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0c1d1;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 20px;
+    text-align: left;
+    color: #B22222;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header p {
+    margin: 5px 0 0;
+    color: white;
+}
+
+.nav {
+    background-color: #B22222;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.main-content, .sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+.article {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.article h2 {
+    background-color: #009933;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.article p {
+    margin: 10px 0;
+}
+
+.article .author, .article .tags {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.article .read-more {
+    background-color:#B22222;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 717Px;
+}
+
+.sidebar .box {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar .box h3 {
+    background-color: #009933;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.sidebar .box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .box ul li {
+    margin: 10px 0;
+    color: #B22222;
+}
+.main-content .box{
+    background-color: #e0e0e0;
+    margin-inline: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 106px;
+    
+}
+.main-content .box h3{
+    background-color: #009933;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    top: 100px;
+
+    
+}
+
+
+.footer {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
