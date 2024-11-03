@@ -26,6 +26,9 @@ body {
     margin: 0 15px;
     font-weight: bold;
 }
+.footer p{
+    font-style: italic;
+}
 .content {
     background-color: #f5f5f5;
     margin: 20px auto;
@@ -58,6 +61,7 @@ body {
 .content .footer a {
     color: #b22222;
     text-decoration: none;
+    font-style: italic;
 }
 .content .footer .tags {
     font-style: italic;

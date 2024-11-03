@@ -48,12 +48,16 @@ body {
 .content p {
     text-align: justify;
 }
+.footer p{
+    font-style: italic;
+}
 .content .footer {
     clear: both;
     padding-top: 20px;
 }
 .content .footer p {
     font-size: 14px;
+    font-style: italic;
 }
 .content .footer a {
     color: #b22222;

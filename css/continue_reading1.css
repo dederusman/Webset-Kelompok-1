@@ -63,6 +63,7 @@ body {
 .content .meta {
     font-size: 12px;
     color: #666;
+    font-style: italic;
 }
 .content .tags {
     font-size: 12px;

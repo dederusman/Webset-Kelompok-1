@@ -43,7 +43,9 @@ body {
     background-color: #ddd;
     color: black;
 }
-
+.footer p{
+    font-style: italic;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -65,13 +67,31 @@ body {
 
 .sidebar {
     flex: 1;
+   
 }
-
+.sidebar p{
+    background-color: white;
+    padding: 2px;
+    border-radius: 6px;
+}
+.sidebar .box .blue {
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    padding: 2px;
+}
+.sidebar .box .yelow {
+    background-color: yellow;
+    color: white;
+    border-radius: 6px;
+    padding: 2px;
+}
 .article {
     background-color: #e0e0e0;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    
 }
 
 .article h2 {
@@ -85,10 +105,12 @@ body {
 }
 .article p {
     margin: 10px 0;
+    text-align: justify;
 }
 .article .author {
     font-size: 0.9em;
     color: #555;
+    font-style: italic;
 }
 .article .tags{
     font-size: 0.9em;
@@ -137,15 +159,17 @@ body {
     padding-bottom: 106px;
     
 }
+.main-content .box p{
+    text-align: justify;
+}
 .main-content .box h3{
     background-color: #009933;
     padding: 10px;
     border-radius: 5px;
     color: white;
     top: 100px;
-
-    
 }
+
 .footer {
     color: black;
     text-align: center;
